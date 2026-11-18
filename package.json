@@ -1,0 +1,18 @@
+{
+  "name": "barry-playground-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "stage": "node scripts/stage-vendor.mjs",
+    "sync": "npm run stage && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "fengari-web": "0.1.4",
+    "lucide": "0.469.0",
+    "pyodide": "0.27.7",
+    "three": "0.128.0"
+  }
+}
